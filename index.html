@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <link rel="stylesheet" href="style.css" />
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>File Encryption/Decryption</title>
+  </head>
+  <body>
+    <h1>File Encryption/Decryption</h1>
+    <div class="upload">
+      <!-- File Upload Section -->
+      <section class="uploadfile">
+        <h2>Upload File</h2>
+        <input type="file" id="fileInput" />
+      </section>
+
+      <!-- Encryption/Decryption Section -->
+      <section class="chooseaction">
+        <h2>Choose Action</h2>
+        <label for="encryption">Encrypt</label>
+        <input type="radio" id="encryption" name="action" checked />
+        <label for="decryption">Decrypt</label>
+        <input type="radio" id="decryption" name="action" />
+
+        <button onclick="processFile()">Process File</button>
+      </section>
+    </div>
+
+    <!-- Result Section -->
+  </body>
+</html>

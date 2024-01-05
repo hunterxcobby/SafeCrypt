@@ -1,0 +1,52 @@
+body {
+  background-image: url('https://s3-us-west-2.amazonaws.com/aa.techdemand.io/wp-content/uploads/2019/04/09090003/Data-Encryption-Descryption-1024x631.jpg');
+  color: white;
+  background-size: 100%;
+  background-position: center center;
+
+}
+
+@keyframes moveTitle {
+  0% {
+    transform: translateX(0);
+  }
+  50% {
+    transform: translateX(20px);
+  }
+  100% {
+    transform: translateX(0);
+  }
+}
+
+h1 {
+  z-index: 1;
+  text-align: center;
+  font-family: "Raleway", sans-serif;
+  letter-spacing: .1em;
+  animation: moveTitle 4s infinite ease-in-out;
+  font-size: 35px;
+  animation: moveTitle 2s infinite; /* Adjust the duration and iteration as needed */
+}
+.upload {
+  display: flex;
+  flex-direction: column;
+
+  height: 100vh;
+  background-color: rgb(169, 169, 169, 0.5);
+  backdrop-filter: blur(10px);
+  width: 60vw;
+  max-width: 500px;
+  min-width: 300px;
+  margin: 0 auto;
+  padding-bottom: 1em;
+  text-align: center;
+
+}
+.chooseaction,
+.uploadfile{
+  font-family: 'Alegreya', serif;
+  font-weight: bold;
+  letter-spacing: 0.1rem;
+  font-size: 15px;
+  margin-bottom: 5em;
+}
