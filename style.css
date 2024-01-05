@@ -9,7 +9,7 @@ body {
 }
 
 .welcome {
-  background-color: aqua;
+  background-color: rgb(22, 148, 148);
   width: 100%;
   padding: 15px;
   margin: 0;
@@ -42,17 +42,14 @@ h1 {
 }
 
 .upload {
-  position: relative;/* Use fixed position */
-  left: 0;
-  right: 0;
   display: flex;
   flex-direction: column;
   height: 90vh;
-  background-color: rgb(169, 169, 169, 0.5);
-  backdrop-filter: blur(5px);
-  width: 100vw;
-  max-width: 100%;
-  min-width: 300px;
+  background-color: rgba(58, 57, 57, 0.5);
+  backdrop-filter: blur(7px);
+  width: 100vw; /* Cover the entire viewport */
+  padding-left: calc((100vw - 100%) / 2); /* Compensate for scrollbar width */
+  padding-right: calc((100vw - 100%) / 2); /* Compensate for scrollbar width */
   margin: 0 auto;
   text-align: center;
   overflow-x: hidden;
