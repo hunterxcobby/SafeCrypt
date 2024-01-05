@@ -27,8 +27,8 @@
         <label for="decryption">Decrypt</label>
       </section>
 
+      <!--create JS fucntion that fetch from frontend and send data to backend -->
       <section>
-        <!--create JS fucntion that fetch from frontend and send data to backend -->
         <h2>Click to Process</h2>
         <button onclick="processFile()" class="click">Process File</button>
 
@@ -44,7 +44,7 @@
           // Check at least one radio button is checked
           else if (!(encryption || decryption))
             return showMessage("Error", "Please select an action");
-          // Send the file to the backend
+          // code for sending the file to the backend
         }
       </script>
     </div>

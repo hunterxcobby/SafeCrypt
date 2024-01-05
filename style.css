@@ -31,10 +31,6 @@ body:hover {
   }
 }
 
-h3, h2 {
-  text-align: center;
-  font-family: "Raleway", sans-serif;
-}
 h1 {
   z-index: 1;
   text-align: center;
@@ -72,5 +68,9 @@ h1 {
   font-family: 'Courier New', Courier, monospace;
 }
 .click:hover {
-  color: green;
+  color: rgb(16, 185, 16);
+}
+h3, h2, h1 {
+  text-align: center;
+  font-family: "Raleway", sans-serif;
 }
