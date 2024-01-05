@@ -27,7 +27,7 @@ body {
   }
 }
 
-h3 {
+h3, h2 {
   text-align: center;
   font-family: "Raleway", sans-serif;
 }
