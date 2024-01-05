@@ -27,13 +27,26 @@
         <label for="decryption">Decrypt</label>
       </section>
 
-      <section class="click">
+      <section>
         <!--create JS fucntion that fetch from frontend and send data to backend -->
         <h2>Click to Process</h2>
-        <button onclick="processFile()">Process File</button>
+        <button onclick="processFile()" class="click">Process File</button>
 
         <!-- Result Section message section -->
       </section>
+      <script>
+        function processFile() {
+          var fileInput = document.getElementById("fileInput");
+          var encryption = document.getElementById("encryption").checked;
+          var decryption = document.getElementById("decryption").checked;
+          if (fileInput.files.length == 0)
+            return showMessage("Error", "No file selected");
+          // Check at least one radio button is checked
+          else if (!(encryption || decryption))
+            return showMessage("Error", "Please select an action");
+          // Send the file to the backend
+        }
+      </script>
     </div>
   </body>
 </html>
