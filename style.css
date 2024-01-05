@@ -1,5 +1,5 @@
 body {
-  background-image: url('https://www.shutterstock.com/image-photo/concept-cyber-security-information-encryption-260nw-2044324382.jpg');
+  background-image: url('https://skillsstreet.com/wp-content/uploads/2023/04/Encryption-vs-Decryption.png');
   color: white;
   background-size: 100%;
   background-position: center center;
@@ -30,11 +30,10 @@ h1 {
 .upload {
   display: flex;
   flex-direction: column;
-
   height: 100vh;
   background-color: rgb(169, 169, 169, 0.5);
   backdrop-filter: blur(10px);
-  width: 60vw;
+  width: 100vw;
   max-width: 500px;
   min-width: 300px;
   margin: 0 auto;
