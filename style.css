@@ -38,7 +38,7 @@ h1 {
   letter-spacing: .1em;
   animation: moveTitle 4s infinite ease-in-out;
   font-size: 35px;
-  animation: moveTitle 2s infinite; /* Adjust the duration and iteration as needed */
+  animation: moveTitle 2s infinite;
 }
 
 .upload {
@@ -48,8 +48,8 @@ h1 {
   background-color: rgba(58, 57, 57, 0.5);
   backdrop-filter: blur(7px);
   width: 100vw; /* Cover the entire viewport */
-  padding-left: calc((100vw - 100%) / 2); /* Compensate for scrollbar width */
-  padding-right: calc((100vw - 100%) / 2); /* Compensate for scrollbar width */
+  padding-left: calc((100vw - 100%) / 2); /* Compensating for scrollbar width */
+  padding-right: calc((100vw - 100%) / 2); /* Compensating for scrollbar width */
   margin: 0 auto;
   text-align: center;
   overflow-x: hidden;
@@ -72,5 +72,18 @@ h1 {
 }
 h3, h2, h1 {
   text-align: center;
+  font-weight: bold;
   font-family: "Raleway", sans-serif;
+}
+
+h1 {
+  font-size: 40px; /* Adjusting size of the headings */
+}
+
+h2 {
+  font-size: 30px; 
+}
+
+h3 {
+  font-size: 24px; /* Adjusting the size of the heading */
 }
