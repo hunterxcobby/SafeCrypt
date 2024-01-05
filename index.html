@@ -21,16 +21,18 @@
       <!-- Encryption/Decryption Section -->
       <section class="chooseaction">
         <h2>Choose Action</h2>
-        <label for="encryption">Encrypt</label>
         <input type="radio" id="encryption" name="action" checked />
-        <label for="decryption">Decrypt</label>
+        <label for="encryption">Encrypt</label>
         <input type="radio" id="decryption" name="action" />
+        <label for="decryption">Decrypt</label>
 
-        <!--create JS fucntion that fetch from frontend and send data to backend -->
-        <button onclick="processFile()">Process File</button>
+        <section class="click">
+          <!--create JS fucntion that fetch from frontend and send data to backend -->
+          <button onclick="processFile()">Process File</button>
+
+          <!-- Result Section message section -->
+        </section>
       </section>
     </div>
-
-    <!-- Result Section message section -->
   </body>
 </html>

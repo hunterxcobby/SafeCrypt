@@ -63,3 +63,10 @@ h1 {
   font-size: 15px;
   margin-bottom: 5em;
 }
+.click {
+  cursor: pointer;
+  font-family: 'Courier New', Courier, monospace;
+}
+.click:hover {
+  color: green;
+}
