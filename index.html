@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <link rel="stylesheet" href="style.css" />
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>File Encryption/Decryption</title>
+  </head>
+  <body>
+    <div class="welcome">
+      <h1>Welcome To SafeCrypt</h1>
+      <h3>Your safe Encryption and Decryption Site</h3>
+    </div>
+    <div class="upload">
+      <!-- File Upload Section -->
+      <section class="uploadfile">
+        <h2>Upload File</h2>
+        <input type="file" id="fileInput" />
+      </section>
+
+      <!-- Encryption/Decryption Section -->
+      <section class="chooseaction">
+        <h2>Choose Action</h2>
+        <input type="radio" id="encryption" name="action" checked />
+        <label for="encryption">Encrypt</label>
+        <input type="radio" id="decryption" name="action" />
+        <label for="decryption">Decrypt</label>
+      </section>
+
+      <!--create JS fucntion that fetch from frontend and send data to backend -->
+      <section>
+        <h2>Click to Process</h2>
+        <button onclick="processFile()" class="click">Process File</button>
+        <!-- Result Section message section here-->
+      </section>
+
+      <!--JAVASCRIPT CODE HERE-->
+      <script>
+        function processFile() {
+          var fileInput = document.getElementById("fileInput");
+          var encryption = document.getElementById("encryption").checked;
+          var decryption = document.getElementById("decryption").checked;
+          if (fileInput.files.length == 0)
+            return showMessage("Error", "No file selected");
+          // Check at least one radio button is checked
+          else if (!(encryption || decryption))
+            return showMessage("Error", "Please select an action");
+          // code for sending the file to the backend
+        }
+      </script>
+    </div>
+  </body>
+</html>

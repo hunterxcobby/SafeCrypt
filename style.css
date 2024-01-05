@@ -1,0 +1,89 @@
+body {
+  background-image: url('https://skillsstreet.com/wp-content/uploads/2023/04/Encryption-vs-Decryption.png');
+  color: white;
+  background-size: cover;
+  background-position: center center;
+  margin: 0;
+  padding: 0;
+  overflow-y: hidden;
+  overflow-x: hidden;
+}
+
+body:hover {
+  overflow-y: auto;
+}
+.welcome {
+  background-color: rgb(22, 148, 148);
+  width: 100%;
+  padding: 15px;
+  margin: 0;
+}
+
+@keyframes moveTitle {
+  0% {
+    transform: translateX(0);
+  }
+  50% {
+    transform: translateX(20px);
+  }
+  100% {
+    transform: translateX(0);
+  }
+}
+
+h1 {
+  z-index: 1;
+  text-align: center;
+  font-family: "Raleway", sans-serif;
+  letter-spacing: .1em;
+  animation: moveTitle 4s infinite ease-in-out;
+  font-size: 35px;
+  animation: moveTitle 2s infinite;
+}
+
+.upload {
+  display: flex;
+  flex-direction: column;
+  height: 90vh;
+  background-color: rgba(58, 57, 57, 0.5);
+  backdrop-filter: blur(7px);
+  width: 100vw; /* Cover the entire viewport */
+  padding-left: calc((100vw - 100%) / 2); /* Compensating for scrollbar width */
+  padding-right: calc((100vw - 100%) / 2); /* Compensating for scrollbar width */
+  margin: 0 auto;
+  text-align: center;
+  overflow-x: hidden;
+
+}
+.chooseaction,
+.uploadfile{
+  font-family: 'Alegreya', serif;
+  font-weight: bold;
+  letter-spacing: 0.1rem;
+  font-size: 15px;
+  margin-bottom: 5em;
+}
+.click {
+  cursor: pointer;
+  font-family: 'Courier New', Courier, monospace;
+}
+.click:hover {
+  color: rgb(16, 185, 16);
+}
+h3, h2, h1 {
+  text-align: center;
+  font-weight: bold;
+  font-family: "Raleway", sans-serif;
+}
+
+h1 {
+  font-size: 40px; /* Adjusting size of the headings */
+}
+
+h2 {
+  font-size: 30px; 
+}
+
+h3 {
+  font-size: 24px; /* Adjusting the size of the heading */
+}
