@@ -1,13 +1,17 @@
 body {
+  margin: 0;
+  padding: 0;
   background-image: url('https://skillsstreet.com/wp-content/uploads/2023/04/Encryption-vs-Decryption.png');
   color: white;
   background-size: cover;
   background-position: center center;
   background-attachment: fixed;
-  margin: 0;
-  padding: 0;
+  flex-direction: column;
+  display: flex;
   overflow-y: hidden;
   overflow-x: hidden;
+  min-height: 100vh;
+  backdrop-filter: blur(5px);
   
 }
 
@@ -24,6 +28,8 @@ body:hover {
 header {
   height: 55px;
   width: 100%;
+  margin: 0;
+  padding: 5px;
   background-color: rgb(22, 148, 148);
   border-bottom: 2px solid #CCCCCC;
   align-items: center;
