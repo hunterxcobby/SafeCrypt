@@ -10,7 +10,8 @@ body {
   display: flex;
   overflow-y: hidden;
   overflow-x: hidden;
-  min-height: 100vh;
+  min-width: 110vh;
+  min-height: 200vh;
   backdrop-filter: blur(5px);
   
 }
@@ -37,7 +38,7 @@ header {
 }
 
 .header-content {
-  width: 100%;
+  width: 90%;
   text-align: center;
   display: flex;
   justify-content: space-between;
@@ -62,7 +63,7 @@ a {
 }
 
 a:hover {
-  color: #520df3;
+  color: #4e03fc;
 }
 
 header a img {
