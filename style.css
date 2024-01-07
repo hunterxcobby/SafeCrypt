@@ -175,7 +175,7 @@ h3 {
   .about-img {
     overflow: hidden;
     height: auto;
-    width: 70%;
+    width: 100%;
     margin-bottom: 20%;
   }
 
@@ -198,7 +198,30 @@ h3 {
     margin-right: 10px;
 
   }
-
+  .about-content {
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    flex-direction: column;
+    margin-top: 20px; 
+    margin-bottom: 10px; 
+  }
+  
+  #about-us {
+    width: 70%; 
+    margin: 0 auto; 
+  }
+  
+  #about-us h2 {
+    font-size: 24px; 
+  }
+  
+  #about-us p {
+    font-size: 16px; 
+    line-height: 1.5; 
+  }
+  
 
 footer {
   background-color: rgb(22, 148, 148);
