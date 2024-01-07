@@ -142,6 +142,54 @@ h3 {
   font-size: 24px; /* Adjusting the size of the heading */
 }
 
+@keyframes slideAnimation {
+  0% {
+    transform: translateX(0);
+  }
+
+  25% {
+    transform: translateX(0);
+  }
+
+  33.33% {
+    transform: translateX(-100%);
+  }
+
+  58.33% {
+    transform: translateX(-100%);
+  }
+
+  66.66% {
+    transform: translateX(-200%);
+  }
+
+  91.66% {
+    transform: translateX(-200%);
+  }
+
+  100% {
+    transform: translateX(-300%);
+  }
+}
+
+  .about-img {
+    overflow: hidden;
+  }
+
+  .img-content {
+    display: flex;
+  animation: slideAnimation 10s infinite;
+  position: absolute;
+  width: 150%;
+  max-width: 100%;
+  }
+
+  .img-content img {
+    width: 100%;
+  height: auto;
+  flex-shrink: 0;
+  max-width: 100%;
+  }
 footer {
   background-color: rgb(22, 148, 148);
   height: 60px;
