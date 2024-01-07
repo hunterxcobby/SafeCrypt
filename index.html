@@ -5,16 +5,31 @@
     <link rel="stylesheet" href="style.css" />
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="shortcut icon" type="image/x-icon" href="passwordicon.jpg" />
+  
   </head>
   <header>
     <!-- Header content goes here -->
     <header>
       <!-- Header content goes here -->
-      <link rel="shortcut icon" type="image/x-icon" href="passwordicon.jpg" />
-  </header>
-  
+    <div class="header-content">
+      <div class="header-link">
+      <a href="http://127.0.0.1:5500/SafeCrypt/index.html#home">
+        <img src="passwordicon.jpg" alt="Icon Description">
+      </a>
+      </div>
+      <div class="header-about-home">
+        <ul>
+          <li><a href="#home" class="myhome">Home</a></li>
+          <li><a href="#about" class="myabout">About Us</a></li>
+        </ul>
+      </div>
+
+  </div>
+    </header>
   <body>
     <div class="welcome">
+      <section id = "home">
       <h1>Welcome To SafeCrypt</h1>
       <h3>Your safe Encryption and Decryption Site</h3>
     </div>
@@ -40,6 +55,30 @@
         <button onclick="processFile()" class="click">Process File</button>
         <!-- Result Section message section here-->
       </section>
+    </section>
+    </div>
+<!--About us section-->
+
+<div class="about-section">
+  <div class="about-img">
+    <section id="about">
+      <div class="img-content">
+        <img src="dianabet.jpg" alt="Computer">
+        <img src="dianabet.jpg" alt="Computer">
+        <img src="dianabet.jpg" alt="Computer">
+      </div>
+    </section>
+  </div>
+
+  <div class="about-content">
+    <section id="about-us">
+      <h2>About Us</h2>
+      <p>
+        This is our about us section
+      </p>
+    </section>
+  </div>
+</div>
 
       <!--JAVASCRIPT CODE HERE-->
       <script>
