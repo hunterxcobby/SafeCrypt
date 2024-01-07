@@ -75,6 +75,7 @@ width: 30px;
 height: auto; 
 display: block;
 }
+
 @keyframes moveTitle {
   0% {
     transform: translateX(0);
@@ -172,6 +173,11 @@ h3 {
   }
 }
 
+.about-section {
+  display: flex;
+  flex-direction: column;
+}
+
   .about-img {
     overflow: hidden;
     height: auto;
@@ -184,7 +190,7 @@ h3 {
     animation: slideAnimation 10s infinite;
     position: absolute;
     width: 100%;
-    max-width: 50%;
+    max-width: 30%;
     margin: 10px;
     
   }
@@ -198,6 +204,7 @@ h3 {
     margin-right: 10px;
 
   }
+
   .about-content {
     text-align: center;
     align-items: center;
