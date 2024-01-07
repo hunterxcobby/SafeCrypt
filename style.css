@@ -9,6 +9,7 @@ body {
   overflow-x: hidden;
 }
 
+
 body:hover {
   overflow-y: auto;
 }
@@ -112,4 +113,9 @@ header {
     background-repeat: no-repeat;
     background-position: 20px center;
     flex-shrink: 0;
+}
+header a img {
+  width: 30px; 
+  height: auto; 
+  display: block; 
 }
