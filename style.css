@@ -136,6 +136,17 @@ header {
   li {
     margin: 0 15px;
   }
+
+  a {
+    text-decoration: none;
+    color: whitesmoke;
+    font-size: 1.2em;
+  }
+  
+  a:hover {
+    color: #520df3;
+  }
+
 header a img {
   width: 30px; 
   height: auto; 
