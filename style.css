@@ -27,9 +27,6 @@ header {
   background-color: rgb(22, 148, 148);
   border-bottom: 2px solid #CCCCCC;
   align-items: center;
-  /* background-image: url('/images/white-password-protection-and-safety-access-icon-vector-25141368.jpg'); */
-  background-repeat: no-repeat;
-  background-position: 20px center;
   flex-shrink: 0;
 }
 
@@ -38,8 +35,7 @@ header {
   text-align: center;
   display: flex;
   justify-content: space-between;
-  padding: 10px;
-  width: 90%;
+  padding: 12px;
 }
 
 ul {
@@ -50,7 +46,7 @@ ul {
 }
 
 li {
-  margin: 0 15px;
+  margin: 0 20px;
 }
 
 a {
@@ -94,8 +90,6 @@ h1 {
   display: flex;
   flex-direction: column;
   height: 90vh;
-  background-color: rgba(58, 57, 57, 0.5);
-  backdrop-filter: blur(7px);
   width: 100vw; /* Cover the entire viewport */
   padding-left: calc((100vw - 100%) / 2); /* Compensating for scrollbar width */
   padding-right: calc((100vw - 100%) / 2); /* Compensating for scrollbar width */
