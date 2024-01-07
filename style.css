@@ -3,6 +3,7 @@ body {
   color: white;
   background-size: cover;
   background-position: center center;
+  background-attachment: fixed;
   margin: 0;
   padding: 0;
   overflow-y: hidden;
@@ -104,10 +105,10 @@ footer {
 }
 
 header {
-    height: 40px;
+    height: 55px;
     width: 100%;
     background-color: rgb(22, 148, 148);
-    border-bottom: 1px solid #CCCCCC;
+    border-bottom: 2px solid #CCCCCC;
     align-items: center;
     /* background-image: url('/images/white-password-protection-and-safety-access-icon-vector-25141368.jpg'); */
     background-repeat: no-repeat;
@@ -120,7 +121,7 @@ header {
     text-align: center;
     display: flex;
     justify-content: space-between;
-    padding: 20px;
+    padding: 10px;
     width: 90%;
   }
 
@@ -137,5 +138,5 @@ header {
 header a img {
   width: 30px; 
   height: auto; 
-  display: block; 
+  display: block;
 }
