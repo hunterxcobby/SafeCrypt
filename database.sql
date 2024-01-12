@@ -11,8 +11,8 @@ PRIMARY KEY (user_id));
 
 CREATE TABLE IF NOT EXISTS Data_table (data_id INT(100),
 user_id INT(100),
-encrypted_data CHAR(10000),
-data_description CHAR(5000),
+encrypted_data TEXT,
+data_description TEXT,
 created_at INT(100),
 updated_at INT(100),
 PRIMARY KEY (data_id));
