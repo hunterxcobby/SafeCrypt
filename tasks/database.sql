@@ -19,5 +19,6 @@ PRIMARY KEY (data_id));
 
 CREATE TABLE IF NOT EXISTS Logs (log_id INT(100),
 user_id INT(100),
-action CHAR(100),
-timestamp INT(100));
+action CHAR(100) DEFAULT 'default_action',
+timestamp INT(100) DEFAULT CURRENT_TIMESTAMP,
+PRIMARY KEY (log_id));
